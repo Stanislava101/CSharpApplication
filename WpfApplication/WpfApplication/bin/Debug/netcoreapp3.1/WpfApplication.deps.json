@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WpfApplication/1.0.0": {
+        "dependencies": {
+          "Stanislava_Georgieva_36_501219056_ex_3": "1.0.0"
+        },
+        "runtime": {
+          "WpfApplication.dll": {}
+        }
+      },
+      "Stanislava_Georgieva_36_501219056_ex_3/1.0.0": {
+        "runtime": {
+          "Stanislava_Georgieva_36_501219056_ex_3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Stanislava_Georgieva_36_501219056_ex_3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

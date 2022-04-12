@@ -1,0 +1,71 @@
+﻿<Window x:Class="WpfApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication"
+        mc:Ignorable="d"
+        Title="Student information system" Height="680" Width="825">
+    <GroupBox Name="PersonalData" Header="Personal Data" Margin="10,2,0,2" Padding="2" Height="660">
+        <Grid Name="MainGrid" ShowGridLines="True" Margin="100,0,-6,0">
+            <StackPanel Margin="330,0,0,0">
+                <Label Name="lblfirstName" Content="First Name" Margin="1" Padding="1" HorizontalAlignment="Left" />
+                <TextBox Name="tboxfirstName" Text="[Enter Name Here]" Margin="1" Padding="1" Width="350" HorizontalAlignment="Right" />
+                <Label Name="lbllastName" Content="Last Name" Margin="1" Padding="1" HorizontalAlignment="Left" />
+                <TextBox Name="tboxlastName" Text="[Enter last name Here]" Margin="1" Padding="1" Width="350" HorizontalAlignment="Right" />
+                <Label Name="lblsirName" Content="SirName" Margin="1" Padding="1" HorizontalAlignment="Left" />
+                <TextBox Name="tboxsirName" Text="[Enter sirname Here]" Margin="1" Padding="1" Width="350" HorizontalAlignment="Right" />
+
+                <Label Name="lblfaculty" Content="Faculty" Margin="1" Padding="1" HorizontalAlignment="Left" />
+                <TextBox Name="tboxfaculty" Text="Faculty" Margin="1" Padding="1" Width="350" HorizontalAlignment="Right" />
+                <Label Name="lblspecialty" Content="Specialty" Margin="1" Padding="1" HorizontalAlignment="Left" />
+                <TextBox Name="tboxspecialty" Text="Specialty" Margin="1" Padding="1" Width="350" HorizontalAlignment="Right" />
+                <Label Name="lblOKS" Content="OKS" Margin="1" Padding="1" HorizontalAlignment="Left" />
+                <TextBox Name="tboxOKS" Text="OKS" Margin="1" Padding="1" Width="350" HorizontalAlignment="Right" />
+
+
+                <Label Name="lblstatus" Content="Status" Margin="1" Padding="1" HorizontalAlignment="Left" />
+                <TextBox Name="tboxstatus" Text="Status" Margin="1" Padding="1" Width="350" HorizontalAlignment="Right" />
+                <Label Name="lblFNumber" Content="FNumber" Margin="1" Padding="1" HorizontalAlignment="Left"  />
+                <TextBox Name="tboxFNumber" Text="FNumber" Margin="1" Padding="1" Width="350" HorizontalAlignment="Right" />
+                <Label Name="lblCourse" Content="Course" Margin="1" Padding="1" HorizontalAlignment="Left" />
+                <TextBox Name="tboxCourse" Text="Course" Margin="1" Padding="1" Width="350" HorizontalAlignment="Right" />
+
+
+                <Label Name="lblflow" Content="Flow" Margin="1" Padding="1" HorizontalAlignment="Left" />
+                <TextBox Name="tboxflow" Text="Flow" Margin="1" Padding="1" Width="350" HorizontalAlignment="Right" />
+                <Label Name="lblgroup" Content="Group" Margin="1" Padding="1" HorizontalAlignment="Left" />
+                <TextBox Name="tboxgroup" Text="Group" Margin="1" Padding="1" HorizontalAlignment="Right" Width="350"  />
+
+                <Button x:Name="Button" Width="100" Height="20" Click="Button_Clear" HorizontalAlignment="Right">
+                    Clear
+                </Button>
+
+                <Button x:Name="btnDisable" Width="100" Height="20" Click="Button_Disable" HorizontalAlignment="Right">
+                    Disable
+                </Button>
+                <Button x:Name="btnEnable" VerticalAlignment="Center" HorizontalAlignment="Right" Width="100" Height="20" Margin="1" Padding="1" Click="Button_Enable">
+                    Enable
+                </Button>
+                <Button x:Name="btnDisplay" VerticalAlignment="Center" HorizontalAlignment="Right" Width="100" Height="20" Margin="1" Padding="1" Click="Button_Display">
+                    Display
+                </Button>
+                <Button x:Name="btnText"  HorizontalAlignment="Right" Width="100" Height="20" Margin="0" Padding="0" Click="Button_Text">
+                    Text
+                </Button>
+            </StackPanel>
+            <Image Margin="49,54,422,351" Stretch="Fill" Source="./profile-pic.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.148"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+
+        </Grid>
+
+    </GroupBox>
+</Window>

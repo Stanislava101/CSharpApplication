@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication", "WpfApplication\WpfApplication.csproj", "{17F84006-20F3-42C5-A1C6-C25E8C7F0B04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stanislava_Georgieva_36_501219056_ex_3", "..\Stanislava_Georgieva_36_501219056_ex_3\Stanislava_Georgieva_36_501219056_ex_3\Stanislava_Georgieva_36_501219056_ex_3.csproj", "{DED21C3C-D74F-468B-83C0-33C1C97214D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17F84006-20F3-42C5-A1C6-C25E8C7F0B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F84006-20F3-42C5-A1C6-C25E8C7F0B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F84006-20F3-42C5-A1C6-C25E8C7F0B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F84006-20F3-42C5-A1C6-C25E8C7F0B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED21C3C-D74F-468B-83C0-33C1C97214D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED21C3C-D74F-468B-83C0-33C1C97214D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED21C3C-D74F-468B-83C0-33C1C97214D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED21C3C-D74F-468B-83C0-33C1C97214D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9981F004-5D72-4C10-947F-502958E9A060}
+	EndGlobalSection
+EndGlobal

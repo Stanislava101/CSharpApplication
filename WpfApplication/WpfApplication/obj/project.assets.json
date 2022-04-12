@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Stanislava_Georgieva_36_501219056_ex_3/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Stanislava_Georgieva_36_501219056_ex_3.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stanislava_Georgieva_36_501219056_ex_3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Stanislava_Georgieva_36_501219056_ex_3/1.0.0": {
+      "type": "project",
+      "path": "../../Stanislava_Georgieva_36_501219056_ex_3/Stanislava_Georgieva_36_501219056_ex_3/Stanislava_Georgieva_36_501219056_ex_3.csproj",
+      "msbuildProject": "../../Stanislava_Georgieva_36_501219056_ex_3/Stanislava_Georgieva_36_501219056_ex_3/Stanislava_Georgieva_36_501219056_ex_3.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Stanislava_Georgieva_36_501219056_ex_3 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Stanislava1505\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Stanislava1505\\source\\repos\\WpfApplication\\WpfApplication\\WpfApplication.csproj",
+      "projectName": "WpfApplication",
+      "projectPath": "C:\\Users\\Stanislava1505\\source\\repos\\WpfApplication\\WpfApplication\\WpfApplication.csproj",
+      "packagesPath": "C:\\Users\\Stanislava1505\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Stanislava1505\\source\\repos\\WpfApplication\\WpfApplication\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Stanislava1505\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Stanislava1505\\source\\repos\\Stanislava_Georgieva_36_501219056_ex_3\\Stanislava_Georgieva_36_501219056_ex_3\\Stanislava_Georgieva_36_501219056_ex_3.csproj": {
+              "projectPath": "C:\\Users\\Stanislava1505\\source\\repos\\Stanislava_Georgieva_36_501219056_ex_3\\Stanislava_Georgieva_36_501219056_ex_3\\Stanislava_Georgieva_36_501219056_ex_3.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
