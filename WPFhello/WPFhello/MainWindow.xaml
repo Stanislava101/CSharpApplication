@@ -1,0 +1,61 @@
+﻿<Window x:Class="WPFhello.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFhello"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="520">
+
+
+    <GroupBox Name="gbUser" Header="GroupBox Sample" Margin="10" Padding="10">
+        <Grid Name="MainGrid" Width="400" Height="800" Background="LightSteelBlue" ShowGridLines="True">
+            <StackPanel>
+                <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Background="Bisque"
+TextWrapping="Wrap" Text="Hello, XAML!" VerticalAlignment="Top"/>
+
+                <Label Name="HelloWPF" FontSize ="20" Margin="20" Padding="20">
+                    Hello, WPF!
+                </Label>
+                <Label Name="num" Content="N" Margin="4" Padding="5" />
+                <TextBox Name="tboxNum" Text="N" Margin="4" Padding="5" />
+                <Label Name="y" Content="Y" Margin="4" Padding="5" />
+                <TextBox Name="tboxY" Text="Y" Margin="4" Padding="5" />
+
+                <Label Name="lblfirstName" Content="First Name" Margin="4" Padding="5" />
+                <TextBox Name="tboxfirstName" Text="First Name" Margin="4" Padding="5" />
+                <Label Name="lblsurName" Content="First Name" Margin="4" Padding="5" />
+                <TextBox Name="tboxsirName" Text="First Name" Margin="4" Padding="5" />
+                <Label Name="lbllastName" Content="First Name" Margin="4" Padding="5" />
+                <TextBox Name="tboxlastName" Text="First Name" Margin="4" Padding="5" />
+
+                <Button Name="btnHello" Margin="0,10" Width="130" Height="20" Click="btnHello_Click">Message</Button>
+                <Button Name="btnCalc" Margin="0,10" Width="130" Height="20" Click="btnCalc_Click">N^Y</Button>
+                <Button Name="btnCalcFac" Margin="0,10" Width="130" Height="20" Click="btnCalcFac_Click">N!</Button>
+
+
+                <TextBlock Name="Message" HorizontalAlignment="Center" Margin = "0" VerticalAlignment="Center" FontFamily="Arial
+Black">
+I edit XAML myself!
+                </TextBlock>
+                <ListBox x:Name="peopleListBox" Width="150"  Height="30">
+                    <ListBoxItem Content="Mike"/>
+                    <ListBoxItem Content="Lisa"/>
+                    <ListBoxItem Content="John"/>
+                    <ListBoxItem Content="Mary"/>
+                </ListBox>
+
+            </StackPanel>
+            <Button Content="Greetings" HorizontalAlignment="Left" Height="32" Margin="-2,655,0,0" VerticalAlignment="Top" Width="104" Click="btnGreetings_Click" RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.788"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+        </Grid>
+    </GroupBox>
+</Window>
